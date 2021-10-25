@@ -1,0 +1,167 @@
+
+
+.parent-photo-box{ 
+    width: 500px; 
+    height: 200px; 
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    background: yellow; 
+    
+} 
+
+
+.child-photo-box { 
+    width: 200px; 
+    height: 200px; 
+    background-color: blue; 
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+} 
+
+@media screen and (max-width: 600px) {
+    
+    .child-photo-box { 
+        background: red; 
+        width: 90%;
+       } 
+    .parent-photo-box { 
+        height: 420px;
+            
+    } 
+    
+}
+
+
+/*
+@media screen and (max-width: 1300px) {
+    .photo-box { 
+        background: red; 
+       } 
+} 
+
+@media screen and (max-width: 1000px) {
+     .photo-box { 
+         background: tomato; 
+        } 
+} 
+
+@media screen and (max-width: 700px) {
+     .photo-box { 
+         background: blue; }
+
+}
+
+@media screen and (max-width: 400px) {
+     .photo-box { 
+         background: yellow; 
+        } 
+}
+
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#parent{
+    background-color: blue;
+    border: 1px solid blue;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    height: 500px;
+}
+
+#child{
+    width: 50%;
+    height: 500px;
+    line-height: 300px;
+    margin: auto;
+    text-align: center;
+    background: tomato;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: beige;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  
+
+
+/*
+h2{ color: rgb(6, 80, 85);
+    text-align: center;
+    font-style: inherit;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+h4{
+    font-size: 50;
+    text-align: center;
+    font-style: oblique;
+    color: slategrey;
+}
+
+#box{
+    text-align: center;
+    margin:0 auto;
+    border :2px solid black; 
+    float: center;
+
+}
+
+
+
+form{
+    text-align: center;
+}
+.delete{
+    padding-left: 0;
+    list-style: none;
+}
+ul{
+    text-align: center;
+}
+
+li{
+    margin: 50px;
+    width: 200px; 
+    height: 200px;
+    display: inline-block;
+}
+
+
+.parent{
+    text-align:center;
+}
+.photo{
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    background-color: black;
+    color: red;
+    text-align: center;
+    margin: 100px;
+    display:inline-block;
+}
+img 
+{
+    width : 300px;
+    height: 250px;
+}
+*/
